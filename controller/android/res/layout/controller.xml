@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.ivycontroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="3" >
+
+        <TableLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:padding="10px" >
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/up_left_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    custom:code="1" />
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/up_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pad_up"
+                    custom:code="2" />
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/up_right_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    custom:code="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/left_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pad_left"
+                    custom:code="0" />
+
+                <com.example.ivycontroller.PadButton
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/right_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pad_right"
+                    custom:code="4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/down_left_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    custom:code="7" />
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/down_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pad_down"
+                    custom:code="6" />
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/down_right_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    custom:code="5" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" >
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:padding="10px" >
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <com.example.ivycontroller.PadButton
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/h_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pad_h"
+                    custom:code="9" />
+
+                <com.example.ivycontroller.PadButton
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/t_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pad_t"
+                    custom:code="8" />
+
+                <com.example.ivycontroller.PadButton
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/i_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pad_i"
+                    custom:code="10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="0dip"
+                android:layout_weight="1" >
+
+                <com.example.ivycontroller.PadButton
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+
+                <com.example.ivycontroller.PadButton
+                    android:id="@+id/s_ctrl"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/pad_s"
+                    custom:code="11" />
+
+                <com.example.ivycontroller.PadButton
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10px" >
+
+            <com.example.ivycontroller.PadButton
+                android:id="@+id/select_ctrl"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                custom:code="12" />
+
+            <com.example.ivycontroller.PadButton
+                android:id="@+id/pause_ctrl"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                custom:code="13" />
+
+            <com.example.ivycontroller.PadButton
+                android:id="@+id/start_ctrl"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                custom:code="14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

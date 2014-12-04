@@ -1,0 +1,26 @@
+<Grid rows="4" cols="1">
+	<Grid rows="2" cols="5" width="*" height="*" row="0" col="0">
+		<!-- Menu -->
+		<Button row="0" col="0" text="Skill" width="*" height="*" textAlignment="left" />
+		<Button row="0" col="1" text="Use Item" width="*" height="*" />
+		<Button row="0" col="2" text="Divine Item" width="*" height="*" />
+		<Button row="0" col="3" text="Party" width="*" height="*" />
+		<Button row="0" col="4" text="Ability" width="*" height="*" textAlignment="right" />
+		
+		<Button row="1" col="0" text="Equipment" width="*" height="*" textAlignment="left" />
+		<Button row="1" col="1" text="Transfer" width="*" height="*" />
+		<Button row="1" col="2" text="Status" width="*" height="*" />
+		<Button row="1" col="3" text="Configure" width="*" height="*" />
+		<Button row="1" col="4" text="Data" width="*" height="*" textAlignment="right" />	
+	</Grid>
+	<Grid width="*" height="*" row="1" col="0">
+		<!-- Personnages -->
+	</Grid>
+	<Grid width="*" height="*" row="2" col="0" backgroundColor="#007FFF" >
+		<!-- InfosJeu1 -->
+	</Grid>
+	<Grid width="*" height="auto" row="3" col="0" backgroundColor="#FF00FF" >
+		<!-- InfosJeu2 -->
+		<Label row="0" col="0" width="*" height="auto" text="Time" textAlignment="right" /> 
+	</Grid>
+</Grid>
